@@ -119,6 +119,66 @@
       "name": "android",
       "type": "APP_MIN_VERSION",
       "value": "1.1.2"
+    },
+    {
+      "name": "vaccine_start_day_not_complete",
+      "type": "Covishield",
+      "value": "15"
+    },
+    {
+      "name": "vaccine_end_day_not_complete",
+      "type": "Covishield",
+      "value": "84"
+    },
+    {
+      "name": "vaccine_start_day_complete",
+      "type": "Covishield",
+      "value": "0"
+    },
+    {
+      "name": "vaccine_end_day_complete",
+      "type": "Covishield",
+      "value": "365"
+    },
+    {
+      "name": "vaccine_start_day_not_complete",
+      "type": "R-COVI",
+      "value": "15"
+    },
+    {
+      "name": "vaccine_end_day_not_complete",
+      "type": "R-COVI",
+      "value": "84"
+    },
+    {
+      "name": "vaccine_start_day_complete",
+      "type": "R-COVI",
+      "value": "0"
+    },
+    {
+      "name": "vaccine_end_day_complete",
+      "type": "R-COVI",
+      "value": "365"
+    },
+    {
+      "name": "vaccine_start_day_not_complete",
+      "type": "Covid-19-recombinant",
+      "value": "15"
+    },
+    {
+      "name": "vaccine_end_day_not_complete",
+      "type": "Covid-19-recombinant",
+      "value": "84"
+    },
+    {
+      "name": "vaccine_start_day_complete",
+      "type": "Covid-19-recombinant",
+      "value": "0"
+    },
+    {
+      "name": "vaccine_end_day_complete",
+      "type": "Covid-19-recombinant",
+      "value": "365"
     }
   ],
   "certificates": {
@@ -271,16 +331,6 @@
         "namedCurve": "P-256"
       },
       "publicKeyPem": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEKMpkfLlexSZAyOl3FjSomlb4P8POpQb7PYz1bg8uca+S/l/hpPiW0U2Cx5gSVvodEJOJdcbMMCgRoGHHdwD+1Q=="
-    },
-    "HhkeqvrtQ0U=": {
-      "publicKeyAlgorithm": {
-        "hash": {
-          "name": "SHA-256"
-        },
-        "name": "ECDSA",
-        "namedCurve": "P-256"
-      },
-      "publicKeyPem": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgUesihG8ECIDnqxEoU9RouOR9y3NVLBUlpZ+ri+Ur7TQLORQDE3s/M5KGEllwCbsgT6cXUAT8kun12mOcJt78g=="
     },
     "IaGR283U1jA=": {
       "publicKeyAlgorithm": {
@@ -1026,16 +1076,6 @@
         "namedCurve": "P-256"
       },
       "publicKeyPem": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE0xTgG+IpxKsG43aa1bGa5tRfC9WC2oCkA08Jz8vHcrYciVOqreHkycHRF0EIM9O6G9LCBypatiQ3VoKDkUVwIw=="
-    },
-    "53FOjX/4aJs=": {
-      "publicKeyAlgorithm": {
-        "hash": {
-          "name": "SHA-256"
-        },
-        "name": "ECDSA",
-        "namedCurve": "P-256"
-      },
-      "publicKeyPem": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgu/WJBn1Q+RCOfQx3NLT5oIGUCHsqSRXuu7EZsqfqZN5PvHk6/E++88wvj2fMrfmAptk5tVld2xBH4P4tRs8JQ=="
     },
     "AX/m4PDDCXE=": {
       "publicKeyAlgorithm": {
@@ -2156,6 +2196,161 @@
         "namedCurve": "P-256"
       },
       "publicKeyPem": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/XCqYpwUi4RLldTOqsukogo6l4ZUIXO4ZtjkUxEpDToYLFI0uApt1KXSfpsn8EfNGPaWF+YW2B1QKpbCtbtZFg=="
+    },
+    "Pcl7yBWEQ7c=": {
+      "publicKeyAlgorithm": {
+        "hash": {
+          "name": "SHA-256"
+        },
+        "name": "ECDSA",
+        "namedCurve": "P-256"
+      },
+      "publicKeyPem": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEcrxlv5/uGbsaXM/QMSpvZV2iNtF0o4QBech6LGpy3OEefbJLf+4iqI19QNWtUXEjlMMytB4+1ESLHdXyki5X2g=="
+    },
+    "0oCvyNKB210=": {
+      "publicKeyAlgorithm": {
+        "hash": {
+          "name": "SHA-256"
+        },
+        "name": "ECDSA",
+        "namedCurve": "P-256"
+      },
+      "publicKeyPem": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEuGGqMuc3NK3Y9fI82qbrWAiNKKKKYm6nLpibiL+DBRILW2+5cFXZ19HLfbKwtAxyVOsv2N6x2VS8zklYStHGEg=="
+    },
+    "14QQ1b6JFLk=": {
+      "publicKeyAlgorithm": {
+        "hash": {
+          "name": "SHA-256"
+        },
+        "name": "ECDSA",
+        "namedCurve": "P-256"
+      },
+      "publicKeyPem": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEF+/sS02b7zIFGgBu4UwddBeosNhu+zvARa+ySKeK2Rd2AJxx1lnnUgfkD0MHlO72kUEwhYdqfRZ7gSgFEgdEkQ=="
+    },
+    "5IJmAxfUwrM=": {
+      "publicKeyAlgorithm": {
+        "hash": {
+          "name": "SHA-256"
+        },
+        "name": "ECDSA",
+        "namedCurve": "P-256"
+      },
+      "publicKeyPem": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEvPje+J0NfHHDSd2eilS/vlPfvFyg2GqaQe5uDcfbRNwXV51JZqQ9bno+FOnw+AFrLd9aOvsqWkvH6ogsKHk26g=="
+    },
+    "768E5xdq4Eg=": {
+      "publicKeyAlgorithm": {
+        "hash": {
+          "name": "SHA-256"
+        },
+        "name": "ECDSA",
+        "namedCurve": "P-256"
+      },
+      "publicKeyPem": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEsdkkXqwhvUOcRao3EMIcLnDwZNiB87ofJwLuwqzIlQhOOZ7ndf8f/flfzxzogN7OgekiNNMpPGjOy58MZQ7Kpw=="
+    },
+    "Of6ltPMXuJo=": {
+      "publicKeyAlgorithm": {
+        "hash": {
+          "name": "SHA-256"
+        },
+        "name": "ECDSA",
+        "namedCurve": "P-256"
+      },
+      "publicKeyPem": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEqqevv+I14Er0ap62pyJsNnWkipxMuuogVRR94OSi2ZgIe6ejB5/8Xnw7URRJkYfEaixM6nz6Y6h9xHT4rQOXcg=="
+    },
+    "UcuKeuV1sys=": {
+      "publicKeyAlgorithm": {
+        "hash": {
+          "name": "SHA-256"
+        },
+        "name": "ECDSA",
+        "namedCurve": "P-256"
+      },
+      "publicKeyPem": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEzuWkpSJGbVsp+E2UNf389FyOI+S1oE2U48ZdgllNRQo5KJ9TCmLL+U+eRVmId9es+oj3BS/rWfQR1fKhs6TznA=="
+    },
+    "oGix7vDtlq4=": {
+      "publicKeyAlgorithm": {
+        "hash": {
+          "name": "SHA-256"
+        },
+        "name": "ECDSA",
+        "namedCurve": "P-256"
+      },
+      "publicKeyPem": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEDFL/JfC54w5DhacEkzUU1ni7QALee86PYN+pLto0V+CXCRch9j54eDQagr/xGcyP3UBThBUnpqtEG/CtBHvExg=="
+    },
+    "1MTFjluEWHU=": {
+      "publicKeyAlgorithm": {
+        "hash": {
+          "name": "SHA-256"
+        },
+        "name": "RSASSA-PKCS1-v1_5",
+        "publicExponent": {
+          "0": 1,
+          "1": 0,
+          "2": 1
+        },
+        "modulusLength": 2048
+      },
+      "publicKeyPem": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwFh8HIBXfjcz7G4uPL7ooBpVAwoZofGJgWNr8Nstxhe4CQuGGo7Cl6QrZyQDtZovLOpcR1S5c4VIUAhegJY2lBEtrIzdR/hcooabkOUyDULsPejaOcii4LtE/25rSKF/6sGyQiCLFb1u4JGlZK7CGmJcXE/NYnDQDvJv6K4dhpwGIoeNFhoG2X6fDHjZemO+/BYZZjRh2BuUf/QnSpVYl6bhmOuJP2EAHBiSt+2S6Xn7O+j0qF5EK5Tm6tttSOjnmz59isc35GlwloszjRn5riUR2t8TYt5UEMYJY2N8iEGIpu9HiJBQyMB1kjzwc7ClwYo4/jB3zWqwZGwhjj5wgwIDAQAB"
+    },
+    "JZhMLV9Gyck=": {
+      "publicKeyAlgorithm": {
+        "hash": {
+          "name": "SHA-256"
+        },
+        "name": "RSASSA-PKCS1-v1_5",
+        "publicExponent": {
+          "0": 1,
+          "1": 0,
+          "2": 1
+        },
+        "modulusLength": 2048
+      },
+      "publicKeyPem": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvJk7BZo+4PHBDZzfie8+BPTzwzcBmpTFqP6dP2X6MsXmKX8a1Rww2x7/O4bBkpea+UOWGQJ+ryUDwnK0u0AJHEID7OAg/gHyK0571RIpcMsiP+rZJjg6j9s7EDIogf6cf641hjVyaWuhkvuw0UyeX5SRVzFQ+eAkAHXwK50mIkIfIJ4DFDvz2Hv/JDMaeSzz9aP9XuDJYu+JX6nGJ0WFmjtjQXmJ39HT4j4q4nsLZh6sHOtiqCVrOfzoOGk6HUxI7nDbqPO+4UwP2o1S82l9LgQSABvFwCtox+w1AGKM/bUeyfTrEIoMAIgDiKDL7k3ks7iyiPZauvtvhSS0MeFlOQIDAQAB"
+    },
+    "TQeqi04M2ek=": {
+      "publicKeyAlgorithm": {
+        "hash": {
+          "name": "SHA-256"
+        },
+        "name": "RSASSA-PKCS1-v1_5",
+        "publicExponent": {
+          "0": 1,
+          "1": 0,
+          "2": 1
+        },
+        "modulusLength": 2048
+      },
+      "publicKeyPem": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvCn2NP604m2TFWnyKbIyhup78wpXMM62pHod3InusDPPPFXWgVsN0NG1E65jy+W7LDY+Q719jVCC8pusghPLmDze1KWwGrGdRyUGmqwFWW5sI0uxKJCsEXMRcKqKpf5NXxJlSo1FIv/ZKKFAnUt1IFUzLo5HP7rqCiKlU58uk9N4puECCW3QEUIgm4mwflcR1crqY1Pdd1UxIceRTGcvT0q4wN9w1fwko+grpV0N7EK2drSVVdvPYlo2fHCU+hDwTJ6AThTktzRiybznhq4Fqf3jEyzVFQA5W1VvAoWhMZgAxHRCZXFXex/MtGvOD4Q+ovP3m1EYX0+C/qsaSsHb2QIDAQAB"
+    },
+    "oVKwwScGxuY=": {
+      "publicKeyAlgorithm": {
+        "hash": {
+          "name": "SHA-256"
+        },
+        "name": "RSASSA-PKCS1-v1_5",
+        "publicExponent": {
+          "0": 1,
+          "1": 0,
+          "2": 1
+        },
+        "modulusLength": 2048
+      },
+      "publicKeyPem": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApU+JIe3bHtVFBRbLLcZ/MHfaOB8dKwsWj7nAh8wr3Iv2+te2Kmq3MLDPZFR0q/hAAEg9gY/K1XVh74S3Zf8UiSm9UJgALVIsxCi96eVpa1GGUtpbQvEg7Uz43PM/vUEkAs8xA/45BtFX1WE2nQ1z2PFcI3pOaJl4UHOVTA1LxEwOrAPBhlApcYwp75Gc9+KahxpJzaDR618ooV9MICYYg8swv4d99u11mjgwMAZcpiNf9iIa1H4phann+5RuNLbRHebVJgBot95AJ4MrOEEqIXg7LpDD9pBofVbV6IB7tuFcIjBIPJhLaUI6nLyg8oxh5NA8fKE9Nc2zbl8po84SrQIDAQAB"
+    },
+    "rTEJEs6D1ik=": {
+      "publicKeyAlgorithm": {
+        "hash": {
+          "name": "SHA-256"
+        },
+        "name": "RSASSA-PKCS1-v1_5",
+        "publicExponent": {
+          "0": 1,
+          "1": 0,
+          "2": 1
+        },
+        "modulusLength": 2048
+      },
+      "publicKeyPem": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvG8EuhEV3qydjzXibNlKeBaRiswEivR7Ths756AhlCuY1xd1MC2qtTpledWZpdYaEr2QunzcE4OU7Tzj0Q4Iy6Ru12yenffGAZVxt31TpwjMioh/hICU9kh5KospkHf4wH6S2+JoK9P3stljHbJddJith9LzyzDQ+ezTVksE4KBD9iKLlvx6kOQE1LSW1lvnm89JqoY+Hlpdy0Gux8ujQ+HsPG5CQc4B7DuoYEjmmWSxGIIR3tuym4UjqUpOYYdq2Ee3ahGt4qPV8mhERHwdT0XeMgTbKaakfBjdQeH+Imd2IRmVaZUkgxTSXpXSCP/tus8k77BNknCtf54N5o2HPwIDAQAB"
     }
   }
 }
